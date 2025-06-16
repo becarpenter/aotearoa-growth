@@ -1,0 +1,70 @@
+@book{Beardon,
+title = {{Computer Culture - The Information Revolution in New Zealand}},
+author = {Beardon, Colin},
+year = "1985",
+place = {{Auckland, New Zealand}},
+publisher = {{Reed Methuen}}
+}
+
+N.B. On 20250116, Colin Beardon <cebeardon@gmail.com> stated by email that "I no longer have my notes" from writing the book.
+
+p 7:
+
+2nd Treasury machine by end 1961.
+Canterbury Uni and Griffin acquired machines in 1961. [Canterbury got an IBM 1620, but Griffins only bought a BTM 555 calculator]. 
+
+1962: NZ Railways, Dept of Education [actually their 2nd machine, ICT 1301], Dept of Statistics
+
+1963: BALM paints (i.e. Dulux); Bond and Bond; Shell; Air NZ; Gough, Gough and Hamar; Tasman Pulp and Paper [probably bogus - no record in the Fletcher archives]; the Broadcasting Council; Auckland Uni [IBM 1620].
+
+19621019, Cabinet approved computer for DSIR at £150,000 to £200,00 [the Eliot 503 installed at VUW by 1965].
+
+"By the end of the decade there were about 140 machines on about 130 different sites. Of these 42% were used by manufacturing or processing industries, 15% were used by banking and financial instituitions, and 15% by central and local government."
+
+p 8:
+
+Estimated number of Computers in NZ [no source given]:
+
+1960 1
+1964 50
+1965 70
+1968 120
+1969 140
+
+[Early data on bureau computing: see photo of page 8.]
+
+p 11:
+
+Estimated data:
+
+1969 140 computers on 120 sites, 2600 DP staff
+1974 280 computers on 220 sites, 4000 DP staff
+
+p 16:
+
+Estimated data:
+
+1969 81% of staff in N Island (41% in Wellington and 33% in Auckland)
+1974 79% of staff in N Island (39% in Wellington and 31% in Auckland)
+
+p 18-19:
+
+Growth of government computing and of bureaucracy/privacy concerns
+in the 70s - see photos.
+
+p 20-22:
+
+Wanganui Computer Centre and privacy - see photos
+[also see https://en.wikipedia.org/wiki/Wanganui_Computer_Centre_bombing]
+
+p 22:
+
+Estimated data:
+
+1966: 81 computers
+1971: 180 computers
+1976: 400 computers
+
+In later chapters, Beardon discusses the social impact of computerisation - concerns about privacy and intrusive bureaucracy (triggered largely by the Wanganui computer centre) and the observed correlation between computerisation and unemployment (which may of course be entirely coincidental). In 1985, he was able to write of "a second industrial revolution", caused by automation in general, not just by computing. [Also by 1985, microprocessors and desktop computers were available - the revolution had hardly started by 1975.]
+For example, on p 72, between 1961 and 1971 there were only two substantial changes in employment by sector: Primary (agriculture etc) declined from 15.2% to 12.0%, and banking & finance increased from 2.6% to 5.8%.
+Beardon also discusses (pp 89-90) the computerisation of "women's work". The fraction of the "unemployed who are female" increased from 10.9% in 1961 to 18.0% in 1971 and 34.9% in 1975.
