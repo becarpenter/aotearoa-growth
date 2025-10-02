@@ -1,0 +1,20 @@
+Notes from chat with John Butcher, 30/9/2025
+
+At his house, 16 Wallace St, Herne Bay, Auckland
+
+John was born 31/3/1933
+
+First programming experience of numerical analysis on SILLIAC in Sydney; based on ILLIAC, and he knew some of the ILLIAC team (which included Stanley Gill [1] from the EDSAC team, but they never met). He knew and respected Maurice Wilkes too.
+
+John was instrumental in hiring Garry Tee to Auckland in 1968, relying on an interview conducted by the Association of Commonwealth Universities in London. The interview report probably oversold Garry's theoretical understanding of maths and also described him as a 'petit maître', which was not a compliment (dandy, fop, or someone who overestimates their ability). Yet John still regards Garry as a great man, even though he lacked some degree of theoretical insight.
+
+The main purpose of the chat was to understand how Computer Science (CS) began as an academic discipline at UoA.
+
+Teaching of computing began somewhat informally, both from Maths (Butcher, Tee and John Whale [brother of Harry Whale]) and from the Computer Centre (Nevil Brownlee inter alia), in the 1960s. Eventually Butcher and others proposed a CS Department - but there was strong opposition from those who claimed that CS was not a real science. One view was that computing was a branch of physics, and the Dean of Science thought it would be a duplication of effort since there were already other CS departments in NZ.
+
+Eventually a CS dept was created in 1980 [CHECK THIS] led by Butcher. It grew progressively and in 1989 [CHECK] Butcher and Tee returned to Maths.
+
+[1] Gill, Stanley, University of Illinois at Urbana-Champaign. Graduate College Digital Computer Laboratory, and University of Illinois at Urbana-Champaign. University Research Board. 
+Reorganization of Illiac Library, Internal Report No. 55, Urbana, Illinois: University of Illinois, 1954. 
+
+https://babel.hathitrust.org/cgi/pt?id=uiuo.ark:/13960/t2989qm3h&seq=1
