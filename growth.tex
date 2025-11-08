@@ -264,15 +264,55 @@ CS departments at Auckland, Wellington and Otago were not established until the 
 \vspace*{-8pt}
 \section{LOCAL CONTRIBUTIONS}
 
- {\bf TBD}: Local contributions to the technology [Mano]
+During the 1960s and 1970s, computing in New Zealand’s universities was characterised by adaptation and experimentation. Limited access to imported hardware, combined with a shortage of technical support and software, encouraged a culture of innovation. Systems were modified, extended, and repurposed to meet local research and teaching needs, reflecting both necessity and ingenuity.
 
-In 1966, Bruce Moon (then at the University of Canterbury) published the first local programming textbook \cite{MoonProgramming}.
+\subsection{The IBM 1620 and Early Student Experimentation}
 
-In 1968, Progeni, claimed to be the first software house in New Zealand, was founded by Perce Harpham (1932-2xxx) \cite{Harpham2010}.
+At the University of Auckland, the IBM 1620 served as the principal computing resource for the entire campus. Access was tightly rationed through a booking system, and graduate students frequently worked overnight to obtain machine time. The environment fostered both technical creativity and practical problem solving.
 
-[Brian's anecdote 1:] In 1974, with increasing demand for interactive computing, Massey University decided that Burroughs block-mode terminals were too expensive. Instead, the Computer Unit bought a DEC PDP 11/10 to act as a terminal concentrator for inexpensive DEC VT05 terminals. Lacking software, the only answer was DIY. Brian Carpenter converted CERN's compiler for the PL-11 programming language to run on the Burroughs mainframe, and Ted Drawneek wrote the necessary software.
+Recognising the need to monitor unattended batch processing, Brian Hicks and Murray Johns of the Physics Department designed a simple alarm system that detected when the 1620 halted during execution. Photocells placed over the Read No Feed and Check Stop indicator lights triggered an audible alert if either light remained active, allowing operators to intervene promptly. This “computer watcher” represents one of the earliest examples of locally developed operational aids for computing in New Zealand.
 
-[Brian's anecdote 2:] In 1975, teams at Massey University and Victoria University of Wellington launched a project called Kiwinet, whose initial goal was resource sharing between the B6700s at the two universities. Despite establishing connectivity, there was no software ecosystem and the project was mainly a learning experience, as discussed in Chapter 2 of \cite{ConnectingClouds}. Internet connectivity only came to New Zealand in 1989.
+\subsection{The IBM 1130 and Hardware–Software Adaptation}
+
+The subsequent installation of an IBM 1130 marked a transition to more versatile, interactive computing. Although the system was modestly configured with 8 KB of storage, it became the focus of significant technical development. Hicks added a 1440 chain printer through a locally engineered Storage Access Channel (SAC) interface, while Peter Fenwick constructed a floating-point arithmetic unit to accelerate numerical computation. The latter experiment was eventually abandoned due to the unreliability of the 8-input OR gates used in its logic design.
+
+Further software enhancements complemented these hardware efforts. Murray Johns modified IBM's standard operating system to implement an integer-only execution mode, improving performance by an order of magnitude for users not requiring floating-point precision. Nevil Brownlee, who became Computer Manager in 1970, developed a real-time clock for the 1130, subsequently replicated at Massey University. At the University of Waikato, by contrast, the same model was operated in its standard configuration, without local modifications.
+
+\subsection{DataBank and the Commercial Mainframe Environment}
+
+While universities pursued their own adaptations, the commercial sector was also expanding its computational capacity. In 1966, IBM installed two System/360 Model 30 systems for the Bank of New Zealand—one in Wellington and one in Auckland—to support DataBank, a cooperative national banking network. Each system possessed 16 KB of ferrite-core memory and five magnetic tape drives.
+
+The configuration evolved rapidly. Tape-based storage was replaced by 2311 and later 2314 disk drives; 1419 MICR readers processed up to 1 600 cheques per minute; and by 1969 DataBank had expanded to six regional centres operating on System/360 Model 40 systems equipped with 128 KB of memory. This initiative represented one of the earliest examples of distributed commercial data processing in New Zealand.
+
+In 1968, Progeni, regarded as New Zealand's first software house, was founded by Perce Harpham (1932–2xxx) \cite{Harpham2010}. The firm's creation reflected a broader shift from experimental and academic computing toward organised commercial software development.
+
+\subsection{The Burroughs B6700 and Standardisation in Higher Education}
+
+In the early 1970s, the University Grants Committee adopted a policy of standardising university computing on the Burroughs B6700 system. Auckland, Massey, Victoria, Canterbury, and Otago each received a B6700 installation, while Waikato—then a smaller and newer institution—was provided with a Remote Job Entry (RJE) terminal to submit punched-card jobs to Auckland.
+
+Nevil Brownlee edited the \emph{Journal for Users of the B6700} (JUB), a communication medium for sharing technical notes and programming techniques among New Zealand users.
+
+At Massey University, the need for interactive computing led to further innovation. Burroughs block-mode terminals were prohibitively expensive, so the Computer Unit acquired a DEC PDP-11/10 to function as a terminal concentrator for low-cost VT05 terminals. Brian Carpenter ported CERN's PL-11 compiler to the B6700 environment, and Ted Drawneek developed the necessary system software. This hybrid solution extended interactive computing capabilities well beyond those supported by the Burroughs hardware alone.
+
+\subsection{Early Computing Research and Algorithmic Innovation}
+
+Local innovation also extended to scientific programming. In 1956, John Butcher—later Professor of Mathematics at Auckland—was among the earliest New Zealanders to undertake computational research overseas, running simulations of cosmic-ray showers on the Australian-built SILLIAC (a version of the ILLIAC). In doing so, he devised an efficient recursive method for managing intermediate results, effectively anticipating the modern concept of a software stack. His approach reduced storage requirements to the logarithm of the problem size, exemplifying the algorithmic economy required when computing resources were severely constrained.
+
+\subsection{Programming Languages}
+
+In 1966, Bruce Moon, then at the University of Canterbury, published the first locally written programming textbook \cite{MoonProgramming}, marking a milestone in the development of computing education in New Zealand.
+
+Within the University of Auckland's Computer Science Department, a locally designed programming language known as SMALL (Small Machine Algol-Like Language) was developed under Nevil Brownlee's leadership. SMALL provided a structured language suitable for teaching compiler construction on limited-capacity machines. Its design reflected contemporary pedagogical debates about appropriate introductory languages: while some advocated BASIC for accessibility, others preferred the discipline of Algol-style syntax. SMALL thus represents an early example of language design adapted to local educational and hardware contexts.
+
+\subsection{Kiwinet and Early Networking}
+
+In 1975, staff at Massey University and Victoria University of Wellington established Kiwinet, a pilot project for sharing resources between their B6700 systems. The network achieved basic connectivity but lacked the software infrastructure required for sustained practical use. Nevertheless, it provided valuable experience in inter-institutional data communication and anticipated later developments in New Zealand's research networking~\cite{ConnectingClouds}. Full Internet connectivity would not arrive until 1989.
+
+\subsection{Legacy}
+
+The early decades of computing in New Zealand were defined by adaptation and experimentation. Limited resources compelled technical creativity, and the modifications made to imported systems were often as significant as the machines themselves. Some of these early systems--such as the IBM 1620 and 1130--survive today in the Bob Doran Museum of Computing at the University of Auckland, serving as tangible reminders of a formative period in which resource constraints fostered a distinctive culture of local innovation.
+
+
 
 \vspace*{-8pt}
 \section{ECONOMIC IMPACT}
