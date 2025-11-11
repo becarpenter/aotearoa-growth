@@ -3,6 +3,7 @@
 \usepackage[colorlinks,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
 \expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks\do\/\do\*\do\-\do\~\do\'\do\''\do\-}
 \usepackage{upmath,color}
+\usepackage{lipsum}
 
 %%\usepackage{draftwatermark}
 %%\SetWatermarkText{DRAFT}
@@ -18,7 +19,12 @@
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{lemma}{Lemma}
-
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
 
 \setcounter{secnumdepth}{0}
 
@@ -164,7 +170,7 @@ This section has described how computers were imported, housed, installed and st
 
 In 1960, the main expected workload was the payrolls for teachers and public servants. The expansion in fields of use came very quickly. By the end of 1966 \cite{Treasury-1974} [{\bf TBD}: Janet check the Archives citation], Government usage included payroll, statistics, science, NZ Railways, Inland Revenue, Post Office, Social Security, Reserve Bank, Bank of New Zealand, New Zealand Broadcasting Corporation, Apple \& Pear Board, and the Dairy Board. In a surviving list of import license applications between August 1965 and May 1966 \cite{Treasury-1974}, there are three applications from local government, three from universities, but 30 from business and primary and secondary industries. The New Zealand economy took to computers rather quickly, held back mainly by import license restrictions.
 
-Applications of importance for business users were listed in 1967 as invoicing, payroll, general ledger, stock control, expense analysis and sales statistics \cite{ScottSurvey1967}. All the same, mathematical, scientific and project planning applications such as PERT (Program Evaluation and Review Technique) were increasingly used. Users saw the advantages of computerization as speed, accuracy, improved reporting, improved organizational control and staff savings. Quite surprisingly, in 1967 most computers were underutilized, with 250 operating hours per month on average, and single-shift operation still being typical. Only 68\% of installations charged internal users for usage: “one of the chief reasons why installations can be uneconomic”.
+Applications of importance for business users were listed in 1967 as invoicing, payroll, general ledger, stock control, expense analysis and sales statistics \cite{ScottSurvey1967}. All the same, mathematical, scientific and project planning applications such as PERT (Program Evaluation and Review Technique) were increasingly used. Users saw the advantages of computerization as speed, accuracy, improved reporting, improved organizational control and staff savings. Quite surprisingly, in 1967 most computers outside of academia were underutilized, with 250 operating hours per month on average, and single-shift operation still being typical. Only 68\% of installations charged internal users for usage: “one of the chief reasons why installations can be uneconomic”.
 
 In 1973, the Department of Statistics provided the following summary \cite{Yearbook73}:
 
@@ -296,13 +302,15 @@ Among degree-granting institutions, the University of Canterbury was the first t
  Year & University & Model & Notes\\
 \hline
 1962 & Canterbury, Christchurch & IBM 1620 &\\\hline
-1963 & Auckland & IBM 1620 &\\\hline 
+1963 & Auckland & IBM 1620\textsuperscript{\textdagger} &\\\hline 
 1965 & Victoria, Wellington & Elliot 503 & Shared with DSIR\\\hline
 1965 & Massey, Palmerston North & IBM 1620 &\\\hline
 1966 & Otago, Dunedin & IBM 360/30 &\\\hline
-1969 & Waikato, Hamilton & IBM 1130 &\\\hline
+1969 & Waikato, Hamilton & IBM 1130\textsuperscript{\textdagger}&\\\hline
 \end{tabular}
 \end{center}
+
+\blfootnote{\textsuperscript{\textdagger} This ispreserved at the Bob Doran Museum of Computing.}
 
 Various other machines were purchased, culminating in a joint purchase of five Burroughs B6700 mainframes for Auckland, Massey, Wellington, Canterbury and Otago in 1971 \cite{Good-Moon-1972}. (Waikato and Canterbury’s Lincoln College campus were fobbed off with under-performing remote access to Auckland and Canterbury respectively.) The original machines were primarily used in support of research in various disciplines; administrative use came years later. For example, in Auckland the IBM 1620, and an IBM 1130 that joined it in 1967, were much used by economists, who were “often the heaviest user,” running simulations of econometric models in 1964-70. Applications, written in Fortran, included dynamic linear models of the New Zealand economy, dynamic simultaneous equation models, and systems of linear stochastic differential equations \cite{Phillips-UoA}. The researchers were students and colleagues of Professor Rex Bergstrom, who had cut his teeth on the Cambridge EDSAC in 1952-54. Of course, mathematicians, scientists, and engineers were also early users.
 
@@ -348,7 +356,7 @@ At Massey University, the need for interactive computing led to further innovati
 
 \subsection{Early Computing Research and Algorithmic Innovation}
 \vspace*{5pt}
-Local innovation also extended to scientific programming. In 1956, John Butcher—later Professor of Mathematics at Auckland, and a founding member of the Auckland CS department—was among the earliest New Zealanders to undertake computational research overseas, running simulations of cosmic-ray showers on the Australian-built SILLIAC (a version of the ILLIAC). In doing so, he devised an efficient recursive method for managing intermediate results, effectively anticipating the modern concept of a software stack. His approach reduced storage requirements to the logarithm of the problem size, exemplifying the algorithmic economy required when computing resources were severely constrained.
+Local innovation also extended to scientific programming. In 1956, John Butcher—later Professor of Mathematics at Auckland, and a founding member and the first head of the Auckland CS department—was among the earliest New Zealanders to undertake computational research overseas, running simulations of cosmic-ray showers on the Australian-built SILLIAC (a version of the ILLIAC). In doing so, he devised an efficient recursive method for managing intermediate results, effectively anticipating the modern concept of a software stack. His approach reduced storage requirements to the logarithm of the problem size, exemplifying the algorithmic economy required when computing resources were severely constrained.
 
 \subsection{Programming Languages}
 \vspace*{5pt}
