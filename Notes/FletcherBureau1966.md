@@ -1,0 +1,1 @@
+https://collection.fletcherarchives.co.nz/objects/2545/fletcher-holdings-ltd-computer-bureau-operations-staff-and-facilities
