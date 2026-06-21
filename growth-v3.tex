@@ -4,7 +4,7 @@
 \expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks\do\/\do\*\do\-\do\~\do\'\do\''\do\-}
 \usepackage{upmath,color}
 \usepackage{lipsum}
-\usepackage{changebar}
+%%\usepackage{changebar}
 \usepackage{threeparttable}
 
 
@@ -76,8 +76,10 @@ nations, but noticeably lagged behind comparable economies.
 
 The period from 1960 to the mid-1970s provides a natural frame for this study.
 Britain's entry into the European Economic Community in 1973 marked a decisive shift in
-New Zealand's economic orientation, coinciding with the first global oil price shock and the
+%%\cbstart
+New Zealand's economic orientation. This coincided with the first global oil price shock and the
 collapse of the wool market \cite{Easton-2020}, ending an era of comfortable post-colonial prosperity.
+%%\cbend
 Developments such as the introduction of a national police computer system and the spread
 of minicomputers after 1975 signaled the growing visibility and changing role of computing.
 During the earlier period, computers were largely confined to government, business, and research
@@ -88,7 +90,6 @@ of early computing, placing New Zealand alongside other countries and assessing 
 and differences. As a basis for this, we start by presenting factual material on various aspects,
 sourced from contemporary accounts, existing historical studies, and recollections of participants:
 
-
 \begin{itemize}
 \item growth in numbers of computers, vendors and employment
 \item key areas  and types of usage, including service bureaus
@@ -96,7 +97,6 @@ sourced from contemporary accounts, existing historical studies, and recollectio
 \item training, teaching and academia
 \item local ingenuity
 \end{itemize}
-
 
 In the years we are studying, New Zealand’s economy was initially prosperous,
 but it entered a period of change as the affluence of the post-war period faltered due to the collapse of the wool market, leading to a period of stagnation and the reinforcement of stringent import controls \cite{Easton-2020}.
@@ -108,9 +108,7 @@ We consider the economic importance of computing, and its impact on society, dur
 \section{GROWTH IN NUMBERS AND EMPLOYMENT}
 Like other developed countries, early forms of information technology had appeared in New Zealand during the first half of the 20th century, but were of limited importance in its largely agricultural economy \cite{pioneers}.
 By 1960, the country had a rather centrally managed post-colonial economy. Indeed, its currency was tied to the pound sterling until as late as 1985, so the country remained somewhat bound to the British economy. The details are complex \cite{Sullivan2013}, but the result was that during the period of our study the Treasury was always concerned about the foreign exchange impact of computer imports. This necessitated a
-
 system of import licensing that had a major impact on the early years of computing, since even the richest companies could not import computers at will -- the market was significantly under-served.
- 
 For example, in the financial year 1966/67 requests to import computers totalled over NZ£2,000,000 in value but only NZ£400,410 was available \cite{Treasury-1966}. Priority was given to companies which brought in the most foreign exchange. This had a major effect on the adoption of computing, especially since the Treasury initially favored computing service bureaus to ensure maximum usage of what they considered a scarce resource. Of course, many companies would have much preferred to have their own systems.
 
 Table~\ref{TotalComp} shows the estimated number of electronic digital computers installed in New Zealand over the years in question.
@@ -140,10 +138,10 @@ Table~\ref{TotalComp} shows the estimated number of electronic digital computers
 A snapshot of installations in Auckland alone lists 37 sites at the end of 1969, covering businesses of many sorts, local government, a university, and even the Naval Research Laboratory \cite{Auburn1971}. At least seven of the sites appear from their names to be service bureaus. There was also a large Government investment in computers in Wellington \cite{ConnectingClouds}.
 
 One example was the ICT 1900 machine installed in 1966 by Winstone Ltd at 69 Queen St, Auckland. Andy and Tom Bell \cite{Bell-private} recall that their British immigrant father William (Bill) Bell, an ICT and former Powers-Samas technician, supported this machine, and the young brothers were allowed to visit the machine room (Figure~\ref{Winstone}). 
-\cbstart
+%%\cbstart
 Winstone was later taken over by the large
 Fletcher Building company, a national conglomerate in the construction industry that has fortunately created a comprehensive public archive.
-\cbend
+%%\cbend
 
 \begin{figure}
 \centerline{\includegraphics[width=18.5pc]{Winstone1966.jpg}}
@@ -152,15 +150,11 @@ Fletcher Building company, a national conglomerate in the construction industry 
 
 Although there are some discrepancies in the available data, the trend is one of rapid growth, from one computer for every 1.25 million people to one for every 10,000. Similarly, the number of programmers in public services rose from a handful (maybe 4) in 1960 to 115 (84 men and
 31 women, i.e. 27\%) by 1974 \cite{Yearbook75}. Overall, some 4000 data processing staff were then employed at  220 sites -- 39\% in Wellington, 31\% in Auckland, 9\% elsewhere in the North Island, and 21\% in the South Island \cite{Beardon}. Pay was attractive: in 1967, an EDP manager’s average annual salary was NZ\$4580 \cite{ScottSurvey1967}, when the national average for company directors and managers was NZ\$4220 \cite{Yearbook70}. Programmers and systems analysts earned anywhere between NZ\$2000 and NZ\$4000. 
-
 It is impossible to tell how many of these staff were recruited locally and how many were immigrants, especially those from the UK for whom visa requirements were non-existent until 1974, so no statistics on their skills are available. Nevertheless, it is noticeable that among our contemporary informants for this article and for \cite{pioneers}, approximately a quarter were born in the UK.
 
 Even if the public services had 27\% of female staff, it is not clear that the same applied elsewhere.
-
 For example, a 1966 staff photograph of Fletcher Building’s internal computer bureau shows 14 men and only three women (Figure~\ref{Staff1966}). Whenever staff appear in computer room photographs, the women are almost invariably seated at a keyboard and the men are standing in discussion. A 1967 survey \cite{ScottSurvey1967} shows systems design and programming as 90\% male occupations, operations as 50\% male, and data preparation as 97\% female.
-
 These statistics reflect trends in wider society; despite New Zealand being the first self-governing country to give women voting rights in 1893, in 1972 only four MPs out of 87 were female and none were in the Cabinet. \cite{Easton-2020}.
-
 
 There is little to indicate significant Māori involvement in computing during our period of study.
 Robyn Kāmira \cite{Kamira} shows that such involvement would only start in the 1980s, when a first small cohort
@@ -172,9 +166,7 @@ of Māori information technology specialists graduated.
 \end{figure}
 
 New Zealand had a long history of preferring to import British products of all kinds, including electrical and electronic technology.
-
 For example, in 1960 imports from the UK were 44\% of the total, compared with 10\% from the USA \cite{Yearbook62}. This imbalance did not long survive in the computer market.
-
 IBM was of course a major player; not only did they secure the Treasury as their first customer for an IBM 650 in 1960 \cite{FirstCinNZ}, but they also delivered a heavily discounted IBM 1620 to the University of Canterbury in 1962, the first machine in academia \cite{Dale-Canty2}. This was in line with IBM’s world-wide practice of educational discounts, a powerful marketing tool that exposed many students to the IBM brand. As time went on, IBM sold or leased numerous machines -- more IBM 1620s, at least one IBM 1401, and several IBM 1130s, until the game-changing IBM 360 series came along in 1964.
 
 The main British competitor in 1960 was ICT, but any potential customer would certainly have been confused by the fragmented state of the British computer industry at that time \cite{Hendry-1989}.
@@ -184,11 +176,12 @@ It was not until the various British companies were unified as ICL in 1968 that 
 Other companies that were active in the early days were Burroughs (with its E2000, a computer specialized for accounting), and NCR (Series 500, also specialized for ledgers). Another factor was that in 1967, New Zealand moved from sterling pounds, shillings and pence to decimal dollars. This conversion accelerated the adoption of computer equipment, with the Decimal Currency Board providing NZ£91,500 in grants for organizations to switch from programmable calculators to computers \cite{Treasury-1966}. This subtly affected the market, since British vendors lost the advantage of their expertise in supporting pounds, shillings and pence. Even Olivetti entered the New Zealand market around 1970 with their compact and elegantly designed Programma series, aimed at smaller businesses \cite{Taupo-Olivetti-1970}. 
 
 We collected available information about individual computers present in New Zealand during the period under study from a
-
-variety of sources, using formal publications, personal communications, photographic archives, sundry web pages, press reports and at least one student newspaper, but at best these cover a small sample of the market.
+variety of sources, using formal publications, personal communications, photographic archives, sundry web pages, press reports and at
+%%\cbstart
+least one student newspaper. However, at best these data cover a small sample of the market.
+%%\cbend
 The details are available on-line as a spreadsheet \cite{SpreadsheetNZ}.
 At the time of writing, we have identified more than 80 machines (including programmable calculators) with arrival dates up to 1975. Since the total number of computers installed in 1975 exceeded 280 (see Table~\ref{TotalComp}), and many earlier machines had been scrapped by then, our sample certainly captures less than 25\% of the market. The distribution of this sample across manufacturers is shown in Table~\ref{TotalManuf}. The total for the British companies that ended up as part of ICL is 29, similar to the total for IBM. It is clear that American suppliers had become dominant, largely overcoming New Zealand’s traditional leaning towards the UK.
-
 \begin{table}[h]
 \begin{center}
 \begin{tabular}{ |c|c| } 
@@ -268,7 +261,11 @@ In 1973, the Department of Statistics provided the following summary \cite{Yearb
 \caption{\label{Bureaux}Example computer bureaus in New Zealand.}
 \end{center}
 \end{table}
-The first bureau listed remains something of an enigma. According to ICT’s records in the UK, it bought an ICT 1301 for “service work” \cite{ccs-t2x1}, but we have found no local records to substantiate this, beyond the formal records of the formation and dissolution of the company. Another phantom bureau hosted the government Education Department’s second computer, also an ICT 1301, leased from ICT at the end of 1963 and installed in ICT premises in Wellington. When the Minister of Education pressed a button to inaugurate it, it was said to be “New Zealand’s first computer bureau” \cite{NatEd1963}, although all indications are that it was dedicated to the Education Department. It seems that obtaining an import license for a shared bureau computer was significantly easier than for a single-user machine. The other bureaus were real enough, and we now present a few brief case studies.
+%%\cbstart
+The first bureau listed remains  poorly documented. According to ICT’s records in the UK, it bought an ICT 1301 for “service work”
+\cite{ccs-t2x1}, but we have found no local records to substantiate this, beyond the formal records of the formation and dissolution of the company. Another  poorly documented bureau hosted the government Education Department’s second computer, also an ICT 1301, leased from ICT at the end of 1963 and installed in ICT premises in Wellington. At its inauguration, the Minister of Education pressed a button to activate the system, which he described as “New Zealand’s first computer bureau” \cite{NatEd1963},
+although all indications are that it was dedicated to the Education Department. It seems that obtaining an import license for a shared bureau computer was significantly easier than for a single-user machine. The remaining bureaus are better documented, and we now present several brief case studies.
+%%\cbend
 
 Electronic Data Systems Ltd (EDS), founded in 1963, was jointly owned by the British company English Electric Leo Marconi (EELM) and the NZ Truth newspaper. It had no connection with the later American company of the same name. EELM, one of the numerous firms that ended up as part of ICL, presumably wanted to enter the New Zealand market. Apart from its earlier DEUCE and LEO computers, it made a family of KDF machines, including the KDF6, of which at least 12 were sold \cite{Hendry-1989}. The KDF6 sales records are scanty \cite{ccs-n2x1}, but  EDS had such machines in Wellington and Auckland \cite{Harsant-private}. Indeed we have photographic evidence of the machine in Auckland (Figure~\ref{kdf6}).
 
@@ -278,14 +275,20 @@ Electronic Data Systems Ltd (EDS), founded in 1963, was jointly owned by the Bri
 \end{figure}
 NZ Truth, described by the National Library web site as “one of the country’s most colourful, controversial and popular newspapers” ran from 1905 until 2007. It is unclear why it decided to enter the computer bureau business in 1963. Perhaps it was simply the easiest way to get an import license for their first computer. In any case, EDS prospered, and opened a third branch in Christchurch in 1970, later switching to Burroughs and ICL equipment \cite{Press-EDS}. By 1972, the Christchurch and Wellington offices were linked by a remote job entry system. EDS remained in business in one form or another until 1994, decades after EELM no longer existed and NZ Truth had sold its stake.
 
-Another success story started in 1965. G. Bernard Battersby (1925-1997) was the Dean of the Faculty of Commerce at the University of Canterbury, and a government advisor. Yet he joined with Paul M. Hargreaves (1938-2014) to found Computer Bureau Ltd (CBL) in Christchurch \cite{Pioneers85}. Its first computer was an ICT 1902 delivered in 1966; with a staff of seven, CBL was unprofitable until 1969, when a branch was opened in Wellington. In early 1970, CBL had some 50 customers, and the Christchurch computer was working 140 hours per week. Thus an ICL 1902A was delivered to Christchurch, the orginal 1902 was moved to Wellington, and an additional ICL 1902 was ordered for another new branch in Hamilton (Figure~\ref{CB-delivery-1971}). In Auckland, CBL had taken over Fletcher Building’s in-house computer bureau, also ICL-based. All training of systems analysts and programmers took place in Christchurch, with total staff expected to reach 70 during 1970 \cite{Press-CBL-1}. By 1974, CBL needed to order three ICL 1902T models for Auckland, Wellington and Christchurch, with a nationwide total of six computer centers and 125 staff. Furthermore, they told the newspapers \cite{Press-CBL-2}:
+Another success story started in 1965. G. Bernard Battersby (1925-1997) was the Dean of the Faculty of Commerce at the University of Canterbury, and a government advisor. Yet he joined with Paul M. Hargreaves (1938-2014) to found Computer Bureau Ltd (CBL) in Christchurch \cite{Pioneers85}. Its first computer was an ICT 1902 delivered in 1966; with a staff of seven, CBL was unprofitable until 1969, when a branch was opened in Wellington. In early 1970, CBL had some 50 customers, and the Christchurch computer was working 140 hours per week.
+%%\cbstart
+Consequently, an ICL 1902A was delivered to Christchurch. The original 1902 was transferred to Wellington, and a further ICL 1902 was ordered for a new branch in Hamilton (Figure~\ref{CB-delivery-1971}).
+%%\cbend
+In Auckland, CBL had taken over Fletcher Building’s in-house computer bureau, also ICL-based. All training of systems analysts and programmers took place in Christchurch, with total staff expected to reach 70 during 1970 \cite{Press-CBL-1}. By 1974, CBL needed to order three ICL 1902T models for Auckland, Wellington and Christchurch, with a nationwide total of six computer centers and 125 staff. Furthermore, they told the newspapers \cite{Press-CBL-2}:
 
 \begin{quotation}
 \noindent{[CBL] is unique in that many of its major users are also shareholders, a number of whom previously operated their own inhouse computers. These include Fletcher Holdings, Ltd, Wilson and Horton, Ltd, the New Zealand Co-op Dairy Company, Bing Harris Sargood, Ltd, United Dominion Corporation, Ltd, and in Christchurch, the Canterbury Building Society, the S.I.M.U. Mutual Insurance Association, and the City Council.
 }
 \end{quotation}
 
-\noindent{Clearly, Computer Bureau Ltd had found a winning formula. In 2026, they still prosper under the name of Datacom, claimed to be the largest technology company in New Zealand, employing at least 6000 people at offices across the Asia-Pacific region (Figure~\ref{Datacom25}).}
+%%\cbstart
+\noindent{These developments indicate that Computer Bureau Ltd had established a successful business model. In 2026, they still prosper under the name of Datacom, claiming to be the largest technology company in New Zealand, and employing at least 6000 people at offices across the Asia-Pacific region (Figure~\ref{Datacom25}).}
+%%\cbend
 
 \begin{figure}
 \centerline{\includegraphics[width=18.5pc]{CBWaikato-delivery-1971.jpg}}
@@ -297,9 +300,7 @@ Another success story started in 1965. G. Bernard Battersby (1925-1997) was the 
 \caption{\label{Datacom25}Datacom, Auckland, 2025. Courtesy Brian Carpenter.}\vspace*{-5pt}
 \end{figure}
 
-
 An important but highly specialized bureau was Databank Systems Limited, founded in 1967 \cite{Toland-Databank, Archibald}. It was set up by a consortium of major banks to automate bank services and to provide a management information system for the trading banks. It established six computing centers across New Zealand, all using IBM 360 series equipment, and by late 1969, every branch of the five trading banks in the country was using Databank. By 1977, Databank had over one thousand staff; it survived until 1994, when it was sold to the Texas-based company EDS.
-
 
 Thus, as computer usage spread throughout business and government, import license pressure encouraged resource sharing and successful bureau operations. This pressure was not to be relieved until major economic reforms in the 1980s, outside our study period.
 \vspace*{-8pt}
@@ -308,16 +309,14 @@ Thus, as computer usage spread throughout business and government, import licens
 \vspace*{5pt}
 Professionalization started early. The New Zealand Computer Society (NZCS) was founded in the same year that the first modern computers arrived in the country \cite{Moon2010}.
 Originally known as The Data Processing and Computer Society, NZCS was registered on 6 October 1960. Initial members were enthusiasts from the academic and business communities, who were aware of the impact computing was having overseas. In the early days academics had the stronger voice and there were restrictions on the numbers of members from the “machine houses” due to an
-\cbstart
+%%\cbstart
 unfounded fear that they would use the Society for promotion of their products and services rather than for learning.
-\cbend
+%%\cbend
 
-The Computer Society had two complementary roles. The first was to look after the interests of its members; the second involved meeting a broader obligation to society in general. The Society wanted to be “the independent and authoritative source of information on matters to do with computing and its social impact” . This was attractive since self-regulation could be a way of forestalling legislative constraints.
+The Computer Society had two complementary roles. The first was to look after the interests of its members; the second involved meeting a broader obligation to society in general. The Society wanted to be “the independent and authoritative source of information on matters to do with computing and its social impact”. This was attractive since self-regulation could be a way of forestalling legislative constraints.
 Wellington (the capital) was the first branch, followed by Canterbury, Otago and Auckland. Initial activity was very much around the branch level. By 1965, there were over 200 members and the possibilty of holding national conferences and publishing a journal was first raised. 
 In 1968, the Society organised its first national conference, which was so well attended that it became a regular occurrence. As well as the presentation of papers, this conference was an important opportunity for computer vendors to present their wares. Around 500 people, on average, attended each of the conferences. An overview of the first five conferences is provided in Table~\ref{NZCSconf}. As well as local keynote speakers, well known figures in the computing world from the USA, the UK and Australia also spoke at NZCS conferences. For example, at the 1970 conference, Richard Hamming from Bell Telephones, USA, spoke on “Computers and Computing in the 1970s”, in 1972 Paul Armer from Stanford University covered “Computers in Society” and in 1976, ACM President Jean Sammet spoke on “Responsibilities of Computing Professionals”. These keynotes were a major draw at conferences and widely reported in the local media.
-
 Thus, the conferences contributed to increasing public awareness that computer usage was relevant to society as a whole, and was not just  a matter for specialists. For example, in 1970 Hamming was quoted in the media as saying “People who could not adapt themselves to the change which would come about by the year 2000, when much of life would be determined by machines, would have a difficult time.” \cite{Press-Hamming} In 1972, the NZCS was reported to be against a national personal-identifier system \cite{Press-Nat-ID}, and its work on ethics and privacy generated various news reports.
-
 
 \begin{table}[h]
 \begin{center}
@@ -338,9 +337,9 @@ Thus, the conferences contributed to increasing public awareness that computer u
 By the 1970s, the NZCS was accepted as the voice of computer practitioners in the country by both government and the public.  That recognition came with responsibilities and the Society started to examine social issues around the use of computing, as well as the quality of computing education on offer.  A Certificate in Data Processing was set up, and the Society also developed a Code of Ethics.
 The foundation President of NZCS (1960-1967), Professor Gordon Oed,  is an excellent example of the links between early computing, academia and the business world. He was a senior lecturer in accounting at Victoria University of Wellington, and formerly chair of a Wellington firm of accountants \cite{Toland-2022}. Dr Bernard Battersby, previously mentioned as the co-founder of Datacom (formerly Computer Bureau Ltd.), was also NZCS President from 1967-1969. He noted that Datacom had to wait until his term as President was over before making its first profit.
 
-\cbstart
+%%\cbstart
 In 2012, NZCS rebranded itself as Information Technology Professionals New Zealand (ITPNZ) \cite{Matthews},
-\cbend
+%%\cbend
 and was eventually liquidated in 2025 due to a financial crisis.
 \subsection{Training and Academia}
 \vspace*{5pt}
@@ -388,18 +387,18 @@ At Canterbury, the IBM 1620 was soon “heavily used by a wide range of universi
 1964, after 2 years of use, the University’s computer had been used in more than 120 projects by 14 departments,
 and more than three-quarters of these projects could not have been tackled without a computer” \cite{Dale-Canty2}.
 
-As well as research, these early machines were also used for undergraduate programming courses. However, in the 1960s, computing was mainly taught as a useful skill, not as an academic subject in its own right. The discipline of Computer Science (CS) was late to arrive in New Zealand. For example, in the UK (New Zealand’s main source of academic immigrants at that time), the Mathematical Laboratory in Cambridge had offered a post-graduate Diploma in Numerical Analysis and Automatic Computing (later renamed Diploma in Computer Science) since 1953, and the Department of Computer Science at the University of Manchester was founded in 1964, graduating its first students in 1968. CS departments also emerged in the USA during the 1960s. It was not until 1973 that three CS
-\cbstart
+As well as research, these early machines were also used for undergraduate programming courses. However, in the 1960s, computing was mainly taught as a useful skill, not as an academic subject in its own right. The discipline of Computer Science (CS) was late to arrive in New Zealand. For example, in the UK (New Zealand’s main source of academic immigrants at that time), the Mathematical Laboratory in Cambridge had offered a post-graduate Diploma in Numerical Analysis and Automatic Computing (later renamed Diploma in Computer Science) since 1953. The Department of Computer Science at the University of Manchester was founded in 1964, graduating its first students in 1968. CS departments also emerged in the USA during the 1960s. It was not until 1973 that three CS
+%%\cbstart
 departments were founded in New Zealand, at the University of Canterbury (led by Professor John Penny),  Massey University (led by Professor Graham Tate) and Waikato University (led by Professor Darryl Smith) \cite{Bell, Waikato-50}.
-\cbend
+%%\cbend
 CS departments at Auckland, Wellington and Otago were not established until the 1980s, outside our main study period. In Auckland at least, this reluctance was caused partly by considerations about duplication of effort, but also by assertions that Computer Science was not a “proper” science -- one view was even that computing was merely a branch of physics, according to Professor John Butcher \cite{Butcher-private}. At Otago, Brian Cox was appointed as “Lecturer in Charge of the Computer Centre” in 1964, even though the first computer, an IBM 360/30, did not arrive until 1966. Cox had used the EDSAC 2 in Cambridge as a physics graduate student, trained by Maurice Wilkes and David Barron. Although computing courses were taught from 1966, and Computer Science papers from 1972, Cox had to wait until 1984 to become the founding Professor of Computer Science \cite{Otago-history}.
 
 \vspace*{-8pt}
 \section{LOCAL INGENUITY}
 Unlike Australia \cite{Philipson-2017}, there appear to have been no early attempts to build a complete digital computer in New Zealand. However, during the 1960s and 1970s, computing in New Zealand, especially in the universities, was characterized by adaptation and experimentation. Limited access to imported hardware, combined with a shortage of technical support and software, encouraged a culture of innovation. Systems were modified, extended, and repurposed to meet local research and teaching needs, reflecting both necessity and ingenuity. Most of these efforts are known only by anecdotal evidence, e.g. \cite{Brownlee-private, Thomas-private}. The technical details are of limited historical interest, but the following summarized examples illustrate how the famed
-\cbstart
+%%\cbstart
 “Kiwi ingenuity” \cite{ingenuity} appeared in the early days of computing.
-\cbend
+%%\cbend
 
 \begin{itemize}
 \item At the University of Auckland, a home-made attachment to the IBM 1620 woke up overnight users if the machine halted during a job.
@@ -427,8 +426,9 @@ for agricutural products would sooner or later become difficult and that diversi
 Britain eventually joined the EEC in 1973, New Zealand had already become a completely independent
 trading nation, as it remains today. In a remarkable change, by 1975 exports to the UK were down to 22\%
 of the total and imports to 19\% \cite{Yearbook77}. 
-As indicated above, IBM and other American computer companies took ample advantage of this opportunity.
-
+%%\cbstart
+As indicated above, IBM and other American computer companies were able to expand their presence in this environment.
+%%\cbend
 
 Many New Zealanders experienced 1960-1975 as a prosperous era of growth,
 despite a brief recession in 1967 \cite{Hall-2014} following a collapse in the export price of wool \cite{Easton-2020}.
@@ -438,7 +438,6 @@ Whereas the consumer price index rose by 124\% between 1960 and 1975, average wa
 Thus the growth of computing in New Zealand took place against the background of a
 healthy economy undergoing significant structural change, despite the Treasury’s continued
 control over import licenses.
-
 The companies and other organizations that increasingly used computers during this period
 presumably saw a strategic advantage in doing so. As noted above, project planning (PERT)
 was a widespread application, which suggests that companies saw much more to computing than
@@ -453,7 +452,6 @@ of Databank that “co-operation in basic processing systems has freed up staff 
 in developing and marketing the banking products.” Quantifying such effects in millions of dollars
 seems impossible. Economists have largely failed to do so, even for intensively studied
 economies such as the USA \cite{Oliner-1994}.
-
 Nevertheless, we assert that the kind of competitive
 and flexible economy that New Zealand needed to survive as a trading nation by 1975 would have been
 much harder to achieve without information technology; the country could not have remained
@@ -461,7 +459,9 @@ competitive if it had failed to streamline its business practices in the same wa
 
 \vspace*{-8pt}
 \section{SOCIAL IMPACT}
-Perhaps it is no surprise that lawyers were among the first to consider the social impact of computers.
+%%\cbstart
+Lawyers were among the first groups to consider the social impact of computers.
+%%\cbend
 A first legal analysis was published in 1971 by Francis M. Auburn \cite{Auburn1971}, in which consideration of privacy
 was the major theme. The author observed that “there is a fear of computers and their operators among the
 general public” and quoted a rather naive counter-argument that “invasions of privacy are the result of misuses
@@ -487,9 +487,9 @@ Despite this legal vacuum, plans for a national police database were made from 1
 Because of ethical concerns,  the NZCS was highly involved in drafting the 1976 Wanganui Computer Centre Act.
 The system, officially the National Law Enforcement Data Base, often called the Wanganui Computer after the town
 where it was installed (now known as Whanganui), was operational by 1976 (Figure \ref{WanganuiCtr}).
-\cbstart
+%%\cbstart
 This led some years later to anti-authoritarian protests, culminating in an anarchist bombing that killed only the bomber.
-\cbend
+%%\cbend
 However, it seems that during our study period,
 despite the concerns of some lawyers, there was little public perception of computers as a societal
 threat prior to the police database. It was the latter which finally brought data privacy concerns to public attention.
@@ -546,11 +546,9 @@ had to educate the general public. Education is key, he said, as most people are
 regarding it “as a form of magic – if not sorcery”. The computer professional’s job was to demystify the 
 computer in order to encourage the widest and most open public debate about all aspects of the social 
 consequences of the developing technologies \cite{Sieghart1976}.
-
 As noted above, this debate was reported in the national press, which took an active interest in NZCS activities.
 \vspace*{-8pt}
 \section{INTERNATIONAL COMPARISONS}
-
 New Zealand’s entry to the computer age was from some points of view not unique,
 especially when considering other countries also in the process of cutting strong historical ties to the UK.
 For example, the first computer in the Irish Republic was a BTM HEC-4 in 1957,
@@ -571,8 +569,7 @@ There was one similarity between the Indian and New Zealand
 situations in the 1960s: in both countries, foreign exchange policy
 severely limited computer imports. In contrast with New Zealand, both ICL 
 and IBM therefore sought manufacturing licenses in India. IBM in particular successfully
-manufactured equipment for the Indian market and for export \cite{Rajaraman-2015}.
- 
+manufactured equipment for the Indian market and for export \cite{Rajaraman-2015}. 
 This was an opportunity that New Zealand might have had, but missed, probably due to its small domestic market.
 
 \begin{table}[h]
@@ -594,20 +591,20 @@ JP & 0 & 0.9 & 19 & 85 & 237 \\\hline
 \end{center}
 \end{table}
 
-\cbstart
+%%\cbstart
 \begin{figure}
 \centerline{\includegraphics[width=18.5pc]{ComputersPerHead.png}}
 \caption{\label{CpH}Visualizing dissemination by country.}\vspace*{-5pt}
 \end{figure}
-\cbend
+%%\cbend
 
-\cbstart
+%%\cbstart
 Using data from Table~\ref{TotalComp}, \cite{Hendry-1989}, \cite{ACS-2017} and \cite{Australia-1974}, together with
 generally available population data,  Table~\ref{CpM} compares the dissemination of computers
 relative to population size
 in New Zealand with that in Australia, the UK, the USA, France, West Germany and Japan. 
 Figure~\ref{CpH} visualizes the same data graphically.
-\cbend
+%%\cbend
 Unsurprisingly,
 the USA led the race. The European countries and Japan all had broadly similar profiles,
 almost indistinguishable in the graph, but New Zealand
@@ -652,14 +649,12 @@ computers are known, unlike Australia where there were at least two, CSIRAC and 
 New Zealand often claims that it is exceptional as a country, due to something more than its geographical remoteness. This claim particularly occurs in the popular press \cite{Frykberg-2025}. However, modern historians have taken a different view. For example, Fairburn \cite{Fairburn-2008} concludes that “what made New Zealand distinct is the
 abnormal degree to which its people have borrowed from other cultures and
 the particular combination of cultures they have borrowed from” (i.e., Australia, Britain and America). The editor of \textit{The New Oxford History of New Zealand} notes that its contributors “question the notion that New Zealand’s history is ‘unique’, distinct or exceptional.” \cite{Byrnes-2007} Apart from the lag in dissemination noted above, and the emphasis on service bureaus, we have indeed found nothing truly exceptional in New Zealand’s move into modern computing.
-
 \vspace*{-8pt}
 \section{CONCLUSION}
-
 This article has examined how electronic computing was adopted in New Zealand between 1960 and 1975. 
-\cbstart
+%%\cbstart
 Developments since 1975 have been well documented by ITPNZ \cite{ITPNZ} and by InternetNZ \cite{ConnectingClouds}.
-\cbend
+%%\cbend
 We also examined whether this process differed significantly from that in other countries. We find that, although New Zealand's geographic isolation, small domestic market, and import controls influenced the timing and organization of adoption, these factors did not produce a fundamentally distinctive pattern.
 
 Computing spread across government, business, and academia in broadly similar ways to other developed economies, although New Zealand generally lagged behind countries such as Australia, the United Kingdom, and those in Europe and North America. The emphasis on shared computing through service bureaus and the constraints imposed by foreign-exchange controls reflected local conditions, but do not amount to strong evidence of national exceptionalism.
@@ -667,7 +662,6 @@ Computing spread across government, business, and academia in broadly similar wa
 During this period, New Zealand itself was undergoing wider economic and social change, moving away from close dependence on the United Kingdom towards a more independent position in global trade. Computing supported this transition by enabling greater organizational efficiency and new forms of coordination, even if its broader social impact remained limited until the mid-1970s.
 
 Overall, New Zealand's early experience of computing is best understood not as exceptional, but as part of a wider international pattern in which similar technologies were adopted, adapted, and integrated under different local constraints. Placing New Zealand alongside other countries helps clarify both the common features of early computing and the modest extent of national variation.
-
 \vspace*{-8pt}
 \section{ACKNOWLEDGMENTS}
 The National Library of New Zealand PapersPast archive
@@ -675,14 +669,11 @@ The National Library of New Zealand PapersPast archive
 and the very extensive Fletcher Trust Archives
 (\href{https://collection.fletcherarchives.co.nz/}{https://collection.fletcherarchives.co.nz/}) were invaluable.
 We are grateful to Robert MacCulloch, Professor of Economics at the University of Auckland, for his
-insightful comments, 
-
-and to Barbara Ainsworth, Monash University, for Australian data.
-Informants with relevant
-personal memories included Andy Bell, Tom Bell, Nevil Brownlee,
-\cbstart
+insightful comments, and to Barbara Ainsworth, Monash University, for Australian data.
+Informants with relevant personal memories included Andy Bell, Tom Bell, Nevil Brownlee,
+%%\cbstart
 John Butcher, Neil Harsant, the late Hugh Jonkers, and Lloyd Thomas.
-\cbend
+%%\cbend
 
 
 %% style ieeetr doesn't display all details or alphabetise
